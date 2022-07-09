@@ -4,7 +4,7 @@
     height: 19px;
     background-image: url('../../../images/like-button2.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     border: none;
 }

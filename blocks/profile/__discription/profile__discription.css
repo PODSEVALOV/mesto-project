@@ -1,20 +1,22 @@
 .profile__discription {
-    margin: 16px 0 0 0;
     max-width: 336px;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     width: 100%;
     line-height: 22px;
     color: #FFFFFF;
-    grid-area: discr;
 }
 
 @media screen and (max-width: 767px) {
     .profile__discription {
+        max-width: 282px;
         font-size: 14px;
         line-height: 17px;
         text-align: center;
-        margin: 8px 0 0;
     }
 }

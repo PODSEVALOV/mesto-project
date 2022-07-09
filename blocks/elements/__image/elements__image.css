@@ -9,6 +9,11 @@
 @media screen and (max-width: 1023px) {
     .elements__image {
         max-width: 350px;
-        height: 264px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .elements__image {
+        max-width: 282px;
     }
 }

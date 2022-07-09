@@ -1,6 +1,22 @@
 .elements__container {
     display: flex;
+    max-width: 246px;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
     padding: 0 15px 31px 21px;
     line-height: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .elements__container {
+        max-width: 314px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .elements__container {
+        max-width: 246px;
+    }
 }
