@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesto</title>
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="pages/index.css">
 </head>
 
 <body class="page">
@@ -20,13 +20,13 @@
             <div class="profile__info">
                 <h1 class="profile__name">Жак-Ив Кусто</h1>
                 <p class="profile__discription">Исследователь океана</p>
-                <button class="button profile__edit-button" type="button"></button>
+                <button class="button profile__button profile__edit-button" type="button"></button>
             </div>
-            <button class="button profile__add-button" type="button"></button>
+            <button class="button profile__button profile__add-button" type="button"></button>
         </section>
 
         <section class="elements">
-            <ul class="elements__card">
+            <div class="elements__card">
                 <div class="elements__list">
                     <img class="elements__image" src="images/Mask1.jpg" alt="Карачаева">
                     <div class="elements__container">
@@ -69,7 +69,7 @@
                         <button class="button elements__like-button" type="button"></button>
                     </div>
                 </div>
-            </ul>
+            </div>
         </section>
     </main>
 
@@ -84,8 +84,8 @@
             <button class="button popup__close-button" type="button" value="close"></button>
             <h2 class="popup__title">Редактировать профиль</h2>
             <form name="form-popup">
-                <input class="popup__input_type_text" name="name-input" value="" type="text" placeholder="Имя">
-                <input class="popup__input_type_text" name="description-input" value="" type="text" placeholder="Описание">
+                <input class="popup__input popup__input_type_text" name="name-input" value="" type="text" placeholder="Имя">
+                <input class="popup__input popup__input_type_text" name="description-input" value="" type="text" placeholder="Описание">
                 <button class="button popup__submit-button" type="submit" value="save">Сохранить</button>
             </form>
         </div>
