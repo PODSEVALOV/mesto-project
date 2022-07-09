@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="pages/index.css">
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="header__logo" src="images/header__logo_white.svg" alt="Логотип">
+    </header>
+
+    <main class="main">
+        <section class="profile">
+            <img class="profile__avatar" src="images/Avatar-Kusto.jpg" alt="Аватарка">
+            <div class="profile__info">
+                <h1 class="profile__name">Жак-Ив Кусто</h1>
+                <p class="profile__discription">Исследователь океана</p>
+                <button class="button profile__edit-button" type="button"></button>
+            </div>
+            <button class="button profile__add-button" type="button"></button>
+        </section>
+
+        <section class="elements">
+            <ul class="elements__card">
+                <div class="elements__list">
+                    <img class="elements__image" src="images/Mask1.jpg" alt="Карачаева">
+                    <div class="elements__container">
+                        <h2 class="elements__title">Карачаевск</h2>
+                        <button class="button elements__like-button" type="button"></button>
+                    </div>
+                </div>
+                <div class="elements__list">
+                    <img class="elements__image" src="images/Mask2.jpg" alt="Эльбрус">
+                    <div class="elements__container">
+                        <h2 class="elements__title">Гора Эльбрус</h2>
+                        <button class="button elements__like-button" type="button"></button>
+                    </div>
+                </div>
+                <div class="elements__list">
+                    <img class="elements__image" src="images/Mask3.jpg" alt="Домбай">
+                    <div class="elements__container">
+                        <h2 class="elements__title">Домбай</h2>
+                        <button class="button elements__like-button" type="button"></button>
+                    </div>
+                </div>
+                <div class="elements__list">
+                    <img class="elements__image" src="images/Mask2.jpg" alt="Эльбрус">
+                    <div class="elements__container">
+                        <h2 class="elements__title">Гора Эльбрус</h2>
+                        <button class="button elements__like-button" type="button"></button>
+                    </div>
+                </div>
+                <div class="elements__list">
+                    <img class="elements__image" src="images/Mask3.jpg" alt="Домбай">
+                    <div class="elements__container">
+                        <h2 class="elements__title">Домбай</h2>
+                        <button class="button elements__like-button" type="button"></button>
+                    </div>
+                </div>
+                <div class="elements__list">
+                    <img class="elements__image" src="images/Mask1.jpg" alt="Карачаева">
+                    <div class="elements__container">
+                        <h2 class="elements__title">Карачаевск</h2>
+                        <button class="button elements__like-button" type="button"></button>
+                    </div>
+                </div>
+            </ul>
+            </nav>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
+    </footer>
+
+
+    <!-- (popup popup_opened) -->
+    <div class="popup">
+        <div class="popup__container">
+            <button class="button popup__close-button" type="button" value="close"></button>
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <form name="form-popup">
+                <input class="popup__input_type_text" name="name-input" value="" type="text" placeholder="Имя">
+                <input class="popup__input_type_text" name="description-input" value="" type="text" placeholder="Описание">
+                <button class="button popup__submit-button" type="submit" value="save">Сохранить</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
