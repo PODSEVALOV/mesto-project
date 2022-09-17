@@ -1,20 +1,14 @@
+.header {
+    padding-top: 45px;
+    min-height: 119px;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 659px) {
     .header {
-        padding: 45px 0 41px;
-        max-width: 880px;
-        margin: 0 auto;
-        border-bottom: 1px solid rgba(84, 84, 84, .7);
+        padding-top: 28px;
+        padding-left: 27px;
+        min-height: 84px;
     }
-    
-    @media screen and (max-width: 1023px) {
-        .header {
-            max-width: 720px;
-        }
-    }
-    
-    @media screen and (max-width: 767px) {
-        .header {
-            max-width: 320px;
-            padding: 28px 0 32px;
-            /* округлил 31.6 */
-        }
-    }
+}

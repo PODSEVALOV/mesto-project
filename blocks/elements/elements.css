@@ -1,21 +1,12 @@
 .elements {
-    max-width: 880px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 0;
-    gap: 21px 17px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    gap: 20px 17px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 640px) {
     .elements {
-        max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .elements {
-        max-width: 282px;
+        grid-template-columns: repeat(auto-fit, minmax(282px, 480px));
+        justify-content: center;
     }
 }
