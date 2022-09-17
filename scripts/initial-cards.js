@@ -1,27 +1,27 @@
 // Карточки из коробки
 
 const initialCards = [{
-        name: 'Карачаево-Черкессия',
-        link: './images/element-karachaevsk.jpg'
+        name: 'Архыз',
+        link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg'
     },
     {
-        name: 'Алтай',
-        link: './images/element-altai.jpg'
+        name: 'Челябинская область',
+        link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg'
     },
     {
-        name: 'Кабардино-Балкария',
-        link: './images/element-kabardino-balkaria.jpg'
+        name: 'Иваново',
+        link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/ivanovo.jpg'
     },
     {
-        name: 'Крым',
-        link: './images/element-crimea.jpg'
+        name: 'Камчатка',
+        link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg'
+    },
+    {
+        name: 'Холмогорский район',
+        link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg'
     },
     {
         name: 'Байкал',
-        link: './images/element-baikal.jpg'
-    },
-    {
-        name: 'Смоленск',
-        link: './images/element-smolensk.jpg'
+        link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg'
     }
 ];
