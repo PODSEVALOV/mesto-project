@@ -71,7 +71,7 @@ function createCard(cardData) {
     const elementImage = cardElement.querySelector('.element__image');
     const elementTitle = cardElement.querySelector('.element__title');
     const likeButton = cardElement.querySelector('.element__like-icon');
-    const trashButton = cardElement.querySelector('.element__trash-icon');
+    const trashButton = cardElement.querySelector('.element__basket-icon');
 
     elementImage.src = cardData.link;
     elementImage.alt = cardData.name;

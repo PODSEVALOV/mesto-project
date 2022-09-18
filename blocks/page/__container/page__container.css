@@ -1,15 +1,12 @@
 .page__container {
     max-width: 1280px;
-    padding-left: 27px;
-    padding-right: 27px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 27px;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 659px) {
     .page__container {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
     }
 }

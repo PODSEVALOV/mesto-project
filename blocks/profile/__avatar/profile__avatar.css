@@ -9,8 +9,7 @@
 
 @media screen and (max-width: 659px) {
     .profile__avatar {
-        margin-right: 0;
+        margin: 0 0 26px;
         justify-self: center;
-        margin-bottom: 26px;
     }
 }
